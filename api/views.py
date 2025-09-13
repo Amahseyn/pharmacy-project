@@ -324,6 +324,7 @@ class PharmacyInventoryViewSet(viewsets.ModelViewSet):
     queryset = PharmacyInventory.objects.all()
     # Default serializer for write operations (POST, PUT, PATCH)
     serializer_class = PharmacyInventoryWriteSerializer
+    permission_classes = [IsAuthenticatedOrReadOnly]
     filter_backends = [DjangoFilterBackend]
     filterset_class = PharmacyInventoryFilter
 

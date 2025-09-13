@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Environment variables
+.env
+
+# Virtual Environment
+venv/
+env/
+.venv
+ENV/
+
+# Database files
+db.sqlite3
+db.sqlite3-journal
+
+# Media and Static files
+/media/
+/static/
+
+# Log files
+*.log
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Testing
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
